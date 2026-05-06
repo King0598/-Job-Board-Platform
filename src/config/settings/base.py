@@ -1,0 +1,21 @@
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+
+    'rest_framework',
+    'rest_framework.authtoken',
+    'django_filters',
+
+    'modules.common',
+    'modules.user',
+    'modules.employer',
+    'modules.candidate',
+    'modules.job',
+    'modules.application',
+    'modules.resume',
+    'modules.report',
+]
